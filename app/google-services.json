@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "245369443680",
+    "project_id": "reglapp-62e61",
+    "storage_bucket": "reglapp-62e61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245369443680:android:693b476afc1d8b59dcba05",
+        "android_client_info": {
+          "package_name": "com.example.reglappunab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245369443680-nhvnhl1tuqb5tuo98n9hokr88rskiusb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD5xZWPKlCqefJ4DaElKif1da_6ILF5kc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245369443680-nhvnhl1tuqb5tuo98n9hokr88rskiusb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
