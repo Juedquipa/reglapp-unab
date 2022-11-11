@@ -12,7 +12,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="8dp"
         android:orientation="vertical"
@@ -22,6 +22,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <TextView
+            android:id="@+id/tv_timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="00"
+            android:textAlignment="center"
+            android:textIsSelectable="false"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -29,7 +42,7 @@
             <ImageView
                 android:id="@+id/iv_naranja"
                 android:layout_width="match_parent"
-                android:layout_height="224dp"
+                android:layout_height="240dp"
                 app:srcCompat="@drawable/rounded_filled_bg" />
 
             <TextView
@@ -46,7 +59,7 @@
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
                 android:textIsSelectable="false"
-                app:autoSizeMaxTextSize="22sp"
+                app:autoSizeMaxTextSize="20sp"
                 app:autoSizeMinTextSize="16sp"
                 app:autoSizeTextType="uniform" />
         </FrameLayout>
@@ -64,7 +77,8 @@
                 android:layout_height="wrap_content"
                 android:background="#FF9800"
                 android:text="Respuesta 1"
-                app:cornerRadius="0sp" />
+                android:textSize="12sp"
+                app:cornerRadius="8sp" />
 
             <Button
                 android:id="@+id/button_respuesta_2"
@@ -74,7 +88,8 @@
                 android:layout_marginTop="16dp"
                 android:background="#FF9900"
                 android:text="Respuesta 2"
-                app:cornerRadius="0sp" />
+                android:textSize="12sp"
+                app:cornerRadius="8sp" />
 
             <Button
                 android:id="@+id/button_respuesta_3"
@@ -84,7 +99,8 @@
                 android:layout_marginTop="16dp"
                 android:background="#FF9900"
                 android:text="Respuesta 3"
-                app:cornerRadius="0sp" />
+                android:textSize="12sp"
+                app:cornerRadius="8sp" />
 
             <Button
                 android:id="@+id/button_respuesta_4"
@@ -94,7 +110,8 @@
                 android:layout_marginTop="16dp"
                 android:background="#FF9900"
                 android:text="Respuesta 4"
-                app:cornerRadius="0sp" />
+                android:textSize="12sp"
+                app:cornerRadius="8sp" />
         </LinearLayout>
 
     </LinearLayout>
@@ -118,5 +135,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

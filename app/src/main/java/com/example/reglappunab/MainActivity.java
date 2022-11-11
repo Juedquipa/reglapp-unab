@@ -23,7 +23,8 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Boton Aprende", Toast.LENGTH_SHORT).show();
         });
         btQuiz.setOnClickListener(view -> {
-            Intent intent = new Intent(this, QuizActivity.class);
+            Intent intent = new Intent(this, LoaderActivity.class);
+            intent.putExtra("activity", "quiz");
             startActivity(intent);
         });
     }
