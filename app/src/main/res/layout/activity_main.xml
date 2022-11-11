@@ -25,7 +25,6 @@
             android:layout_height="wrap_content">
 
             <ImageButton
-                android:clickable="false"
                 android:id="@+id/button_aprende"
                 android:layout_width="match_parent"
                 android:layout_height="256dp"

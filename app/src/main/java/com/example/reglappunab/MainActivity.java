@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
         btQuiz.setOnClickListener(view -> {
-            Intent intent = new Intent(this, QuizActivity.class);
+            Intent intent = new Intent(this, LoaderActivity.class);
+            intent.putExtra("activity", "quiz");
             startActivity(intent);
         });
     }
