@@ -55,7 +55,7 @@
                 android:layout_marginRight="16dp"
                 android:layout_marginBottom="24dp"
                 android:gravity="center"
-                android:text="Pregunta 1"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
                 android:textIsSelectable="false"

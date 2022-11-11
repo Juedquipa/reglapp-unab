@@ -19,26 +19,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="12dp"
-            android:paddingTop="26dp"
-            android:text="Hola"
+            android:layout_marginTop="16dp"
+            android:text="Texto de ejemplo"
             android:textAlignment="center"
-            android:justificationMode="inter_word"
-            android:textSize="30dp"
+            android:textSize="32sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/content_textview"
-            android:scrollbars="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/title_textview"
-            android:layout_centerHorizontal="true"
             android:layout_marginVertical="20dp"
-            android:justificationMode="inter_word"
-
-            android:layout_marginHorizontal="12dp"
-            android:text="YOOOOOO"
-            android:textSize="20dp" />
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:scrollbars="vertical"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            android:textSize="20sp" />
     </RelativeLayout>
 
 

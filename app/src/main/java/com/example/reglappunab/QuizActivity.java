@@ -108,6 +108,7 @@ public class QuizActivity extends AppCompatActivity {
     }
 
     public void showPopup(String tittle, String message){
+        mpMusic.setPlaybackParams(mpMusic.getPlaybackParams().setSpeed(1.0f));
         mpMusic.pause();
         timerHandler.removeCallbacks(timerRunnable);
         dialogBuilder = new AlertDialog.Builder(this);
@@ -208,6 +209,7 @@ public class QuizActivity extends AppCompatActivity {
             }
             else {
                 if (seconds<=10){
+                    mpMusic.setPlaybackParams(mpMusic.getPlaybackParams().setSpeed(1.2f));
                     tvTimer.setTextColor(Color.parseColor("#FF0000"));
                 }
                 tvTimer.setText(String.format("%02d", seconds));
